@@ -11,3 +11,10 @@ if let input = readLine(){
         print("You are a child")
     }
 }
+
+
+let age = 17
+let messege: String = age >= 18 ? "You are an adult" : "You are a child"
+
+print(messege)
+
